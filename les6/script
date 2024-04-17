@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "Matn kiriting:"
+read input
+
+reverse_matn=$(echo "$input" | rev)
+echo "Teskarisi: $reverse_matn"
